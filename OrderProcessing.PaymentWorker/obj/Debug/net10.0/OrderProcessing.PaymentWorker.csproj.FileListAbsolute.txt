@@ -1,0 +1,17 @@
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/bin/Debug/net10.0/OrderProcessing.PaymentWorker.deps.json
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/bin/Debug/net10.0/OrderProcessing.PaymentWorker.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/bin/Debug/net10.0/OrderProcessing.PaymentWorker.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/bin/Debug/net10.0/OrderProcessing.Infrastructure.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/bin/Debug/net10.0/OrderProcessing.Shared.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/bin/Debug/net10.0/OrderProcessing.Infrastructure.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/bin/Debug/net10.0/OrderProcessing.Shared.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/obj/Debug/net10.0/OrderProcessing.PaymentWorker.csproj.AssemblyReference.cache
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/obj/Debug/net10.0/OrderProcessing.PaymentWorker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/obj/Debug/net10.0/OrderProcessing.PaymentWorker.AssemblyInfoInputs.cache
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/obj/Debug/net10.0/OrderProcessing.PaymentWorker.AssemblyInfo.cs
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/obj/Debug/net10.0/OrderProcessing.PaymentWorker.csproj.CoreCompileInputs.cache
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/obj/Debug/net10.0/OrderPro.8FAA16D1.Up2Date
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/obj/Debug/net10.0/OrderProcessing.PaymentWorker.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/obj/Debug/net10.0/refint/OrderProcessing.PaymentWorker.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/obj/Debug/net10.0/OrderProcessing.PaymentWorker.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/obj/Debug/net10.0/ref/OrderProcessing.PaymentWorker.dll

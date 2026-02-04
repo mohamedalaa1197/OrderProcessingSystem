@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "MUbWtYK0DiQ=",
+  "success": true,
+  "projectFilePath": "/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/OrderProcessing.PaymentWorker.csproj",
+  "expectedPackageFiles": [
+    "/Users/mohamedalaa/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.2/microsoft.extensions.configuration.abstractions.10.0.2.nupkg.sha512",
+    "/Users/mohamedalaa/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.2/microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512",
+    "/Users/mohamedalaa/.nuget/packages/microsoft.extensions.diagnostics.abstractions/10.0.2/microsoft.extensions.diagnostics.abstractions.10.0.2.nupkg.sha512",
+    "/Users/mohamedalaa/.nuget/packages/microsoft.extensions.fileproviders.abstractions/10.0.2/microsoft.extensions.fileproviders.abstractions.10.0.2.nupkg.sha512",
+    "/Users/mohamedalaa/.nuget/packages/microsoft.extensions.hosting.abstractions/10.0.2/microsoft.extensions.hosting.abstractions.10.0.2.nupkg.sha512",
+    "/Users/mohamedalaa/.nuget/packages/microsoft.extensions.logging.abstractions/10.0.2/microsoft.extensions.logging.abstractions.10.0.2.nupkg.sha512",
+    "/Users/mohamedalaa/.nuget/packages/microsoft.extensions.options/10.0.2/microsoft.extensions.options.10.0.2.nupkg.sha512",
+    "/Users/mohamedalaa/.nuget/packages/microsoft.extensions.primitives/10.0.2/microsoft.extensions.primitives.10.0.2.nupkg.sha512",
+    "/Users/mohamedalaa/.nuget/packages/rabbitmq.client/6.8.1/rabbitmq.client.6.8.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/bin/Debug/net10.0/OrderProcessing.Infrastructure.deps.json
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/bin/Debug/net10.0/OrderProcessing.Infrastructure.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/bin/Debug/net10.0/OrderProcessing.Infrastructure.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/bin/Debug/net10.0/OrderProcessing.Shared.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/bin/Debug/net10.0/OrderProcessing.Shared.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/obj/Debug/net10.0/OrderProcessing.Infrastructure.csproj.AssemblyReference.cache
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/obj/Debug/net10.0/OrderProcessing.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/obj/Debug/net10.0/OrderProcessing.Infrastructure.AssemblyInfoInputs.cache
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/obj/Debug/net10.0/OrderProcessing.Infrastructure.AssemblyInfo.cs
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/obj/Debug/net10.0/OrderProcessing.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/obj/Debug/net10.0/OrderPro.3CB8FC4D.Up2Date
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/obj/Debug/net10.0/OrderProcessing.Infrastructure.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/obj/Debug/net10.0/refint/OrderProcessing.Infrastructure.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/obj/Debug/net10.0/OrderProcessing.Infrastructure.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/obj/Debug/net10.0/ref/OrderProcessing.Infrastructure.dll

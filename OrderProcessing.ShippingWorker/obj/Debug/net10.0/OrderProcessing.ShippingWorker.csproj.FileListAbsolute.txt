@@ -1,0 +1,17 @@
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/bin/Debug/net10.0/OrderProcessing.ShippingWorker.deps.json
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/bin/Debug/net10.0/OrderProcessing.ShippingWorker.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/bin/Debug/net10.0/OrderProcessing.ShippingWorker.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/bin/Debug/net10.0/OrderProcessing.Infrastructure.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/bin/Debug/net10.0/OrderProcessing.Shared.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/bin/Debug/net10.0/OrderProcessing.Infrastructure.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/bin/Debug/net10.0/OrderProcessing.Shared.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/obj/Debug/net10.0/OrderProcessing.ShippingWorker.csproj.AssemblyReference.cache
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/obj/Debug/net10.0/OrderProcessing.ShippingWorker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/obj/Debug/net10.0/OrderProcessing.ShippingWorker.AssemblyInfoInputs.cache
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/obj/Debug/net10.0/OrderProcessing.ShippingWorker.AssemblyInfo.cs
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/obj/Debug/net10.0/OrderProcessing.ShippingWorker.csproj.CoreCompileInputs.cache
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/obj/Debug/net10.0/OrderPro.BEE04F31.Up2Date
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/obj/Debug/net10.0/OrderProcessing.ShippingWorker.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/obj/Debug/net10.0/refint/OrderProcessing.ShippingWorker.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/obj/Debug/net10.0/OrderProcessing.ShippingWorker.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.ShippingWorker/obj/Debug/net10.0/ref/OrderProcessing.ShippingWorker.dll

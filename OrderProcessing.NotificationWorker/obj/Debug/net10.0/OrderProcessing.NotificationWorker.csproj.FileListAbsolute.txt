@@ -1,0 +1,17 @@
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/bin/Debug/net10.0/OrderProcessing.NotificationWorker.deps.json
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/bin/Debug/net10.0/OrderProcessing.NotificationWorker.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/bin/Debug/net10.0/OrderProcessing.NotificationWorker.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/bin/Debug/net10.0/OrderProcessing.Infrastructure.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/bin/Debug/net10.0/OrderProcessing.Shared.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/bin/Debug/net10.0/OrderProcessing.Infrastructure.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/bin/Debug/net10.0/OrderProcessing.Shared.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/obj/Debug/net10.0/OrderProcessing.NotificationWorker.csproj.AssemblyReference.cache
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/obj/Debug/net10.0/OrderProcessing.NotificationWorker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/obj/Debug/net10.0/OrderProcessing.NotificationWorker.AssemblyInfoInputs.cache
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/obj/Debug/net10.0/OrderProcessing.NotificationWorker.AssemblyInfo.cs
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/obj/Debug/net10.0/OrderProcessing.NotificationWorker.csproj.CoreCompileInputs.cache
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/obj/Debug/net10.0/OrderPro.C1285D5A.Up2Date
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/obj/Debug/net10.0/OrderProcessing.NotificationWorker.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/obj/Debug/net10.0/refint/OrderProcessing.NotificationWorker.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/obj/Debug/net10.0/OrderProcessing.NotificationWorker.pdb
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/obj/Debug/net10.0/ref/OrderProcessing.NotificationWorker.dll

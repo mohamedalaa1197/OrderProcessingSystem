@@ -11,7 +11,9 @@ public class NotificationWorker : RabbitMQConsumer
     }
 
     protected override string QueueName => QueueNames.Notification;
-    protected override string DeadLetterQueue => QueueNames.NotificationDLQ;
+    protected override string ExchangeName => ExchangeNames.ShippingEvents;
+    protected override string RoutingKey => RoutingKeys.ShippingPrepared;
+    protected override string DeadLetterQueue => "";
 
     protected override Task ProcessMessageAsync(string message)
     {

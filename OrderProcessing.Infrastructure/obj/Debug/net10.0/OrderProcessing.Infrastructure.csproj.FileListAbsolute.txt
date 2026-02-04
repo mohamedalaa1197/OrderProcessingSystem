@@ -13,3 +13,4 @@
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/obj/Debug/net10.0/refint/OrderProcessing.Infrastructure.dll
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/obj/Debug/net10.0/OrderProcessing.Infrastructure.pdb
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/obj/Debug/net10.0/ref/OrderProcessing.Infrastructure.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Infrastructure/obj/Debug/net10.0/OrderProcessing.Infrastructure.sourcelink.json

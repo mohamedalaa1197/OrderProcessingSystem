@@ -15,3 +15,4 @@
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.InventoryWorker/obj/Debug/net10.0/refint/OrderProcessing.InventoryWorker.dll
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.InventoryWorker/obj/Debug/net10.0/OrderProcessing.InventoryWorker.pdb
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.InventoryWorker/obj/Debug/net10.0/ref/OrderProcessing.InventoryWorker.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.InventoryWorker/obj/Debug/net10.0/OrderProcessing.InventoryWorker.sourcelink.json

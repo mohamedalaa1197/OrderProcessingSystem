@@ -6,12 +6,15 @@ namespace OrderProcessing.InventoryWorker;
 
 public class InventoryReservationWorker : RabbitMQConsumer
 {
-    private readonly RabbitMQPublisher _publisher;
+    private readonly RabbitMqPublisher _publisher;
     protected override string QueueName => QueueNames.InventoryReservation;
+    protected override string ExchangeName => ExchangeNames.PaymentEvents;
+    protected override string RoutingKey => RoutingKeys.PaymentSuccess;
     protected override string DeadLetterQueue => QueueNames.InventoryDLQ;
 
-    public InventoryReservationWorker(RabbitMQConnectionFactory connectionFactory,
-        RabbitMQPublisher publisher) : base(connectionFactory)
+    public InventoryReservationWorker(
+        RabbitMQConnectionFactory connectionFactory,
+        RabbitMqPublisher publisher) : base(connectionFactory)
     {
         _publisher = publisher;
     }
@@ -40,11 +43,18 @@ public class InventoryReservationWorker : RabbitMQConsumer
         if (success)
         {
             Console.WriteLine($"Inventory reserved for Order: {paymentEvent.OrderId}");
-            _publisher.Publish(QueueNames.ShippingPreparation, inventoryEvent);
+            _publisher.Publish(
+                exchangeName: ExchangeNames.InventoryEvents,
+                routingKey: RoutingKeys.InventoryReserved,
+                message: inventoryEvent);
         }
         else
         {
             Console.WriteLine($"Inventory reservation failed for Order: {paymentEvent.OrderId}");
+            _publisher.Publish(
+                exchangeName: ExchangeNames.InventoryEvents,
+                routingKey: RoutingKeys.InventoryFailed,
+                message: inventoryEvent);
         }
     }
 }

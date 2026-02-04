@@ -11,6 +11,8 @@ public abstract class RabbitMQConsumer : BackgroundService
     private IConnection _connection;
     private IModel _channel;
     protected abstract string QueueName { get; }
+    protected abstract string ExchangeName { get; }
+    protected abstract string RoutingKey { get; }
     protected abstract string DeadLetterQueue { get; }
 
     protected RabbitMQConsumer(RabbitMQConnectionFactory connectionFactory)
@@ -23,6 +25,15 @@ public abstract class RabbitMQConsumer : BackgroundService
         _connection = _connectionFactory.GetConnection();
         _channel = _connection.CreateModel();
 
+        // Declare the exchange
+        _channel.ExchangeDeclare(
+            exchange: ExchangeName,
+            type: ExchangeType.Direct,
+            durable: true,
+            autoDelete: false
+        );
+
+        // Declare dead letter queue if specified
         if (!string.IsNullOrEmpty(DeadLetterQueue))
         {
             _channel.QueueDeclare(
@@ -34,12 +45,12 @@ public abstract class RabbitMQConsumer : BackgroundService
             );
         }
 
-
-        var args = new Dictionary<string, object>();
+        // Declare main queue with DLQ configuration
+        var queueArgs = new Dictionary<string, object>();
         if (!string.IsNullOrEmpty(DeadLetterQueue))
         {
-            args.Add("x-dead-letter-exchange", "");
-            args.Add("x-dead-letter-routing-key", DeadLetterQueue);
+            queueArgs.Add("x-dead-letter-exchange", "");
+            queueArgs.Add("x-dead-letter-routing-key", DeadLetterQueue);
         }
 
         _channel.QueueDeclare(
@@ -47,13 +58,19 @@ public abstract class RabbitMQConsumer : BackgroundService
             durable: true,
             exclusive: false,
             autoDelete: false,
-            arguments: args
+            arguments: queueArgs
         );
 
+        // Bind queue to exchange with routing key
+        _channel.QueueBind(
+            queue: QueueName,
+            exchange: ExchangeName,
+            routingKey: RoutingKey
+        );
+
+        Console.WriteLine($"Queue '{QueueName}' bound to exchange '{ExchangeName}' with routing key '{RoutingKey}'");
+
         // Set prefetch count (quality of service)
-        // no limit on the message size
-        // only process one message at a time
-        // global is false, so it is not applying to this consumer only
         _channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
 
         var consumer = new EventingBasicConsumer(_channel);
@@ -64,6 +81,8 @@ public abstract class RabbitMQConsumer : BackgroundService
                 var body = eventArgs.Body.ToArray();
                 var message = Encoding.UTF8.GetString(body);
 
+                Console.WriteLine($"Received message on queue '{QueueName}': {message.Substring(0, Math.Min(100, message.Length))}...");
+
                 await ProcessMessageAsync(message);
 
                 // Acknowledge message
@@ -71,7 +90,7 @@ public abstract class RabbitMQConsumer : BackgroundService
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error processing message: {ex.Message}");
+                Console.WriteLine($"Error processing message on queue '{QueueName}': {ex.Message}");
 
                 // Reject and send to DLQ
                 _channel.BasicReject(deliveryTag: eventArgs.DeliveryTag, requeue: false);

@@ -6,15 +6,16 @@ namespace OrderProcessing.ShippingWorker;
 
 public class ShippingPreparingWorker : RabbitMQConsumer
 {
-    private readonly RabbitMQPublisher _publisher;
+    private readonly RabbitMqPublisher _publisher;
     protected override string QueueName => QueueNames.ShippingPreparation;
-
+    protected override string ExchangeName => ExchangeNames.InventoryEvents;
+    protected override string RoutingKey => RoutingKeys.InventoryReserved;
     protected override string DeadLetterQueue => QueueNames.ShippingDLQ;
 
     // prepare
     public ShippingPreparingWorker(
         RabbitMQConnectionFactory connectionFactory,
-        RabbitMQPublisher publisher) : base(connectionFactory)
+        RabbitMqPublisher publisher) : base(connectionFactory)
     {
         _publisher = publisher;
     }
@@ -22,6 +23,7 @@ public class ShippingPreparingWorker : RabbitMQConsumer
 
     protected override async Task ProcessMessageAsync(string message)
     {
+        Console.WriteLine($"Received message for shipping preparation: {message} from Queue: {QueueName}");
         var inventoryEvent = JsonSerializer.Deserialize<InventoryReservedEvent>(message);
         Console.WriteLine($"Preparing shipping for Order: {inventoryEvent.OrderId}");
 
@@ -30,22 +32,17 @@ public class ShippingPreparingWorker : RabbitMQConsumer
         // here we just simulate it with a delay
         await Task.Delay(1500);
 
-        var success = Random.Shared.Next(100) < 95;
-
-        var notificationEvent = new ShippingPreparedEvent()
+        var shippingEvent = new ShippingPreparedEvent()
         {
             OrderId = inventoryEvent.OrderId,
             TrackingNumber = Guid.NewGuid().ToString(),
         };
 
-        if (success)
-        {
-            Console.WriteLine($"Inventory reserved for Order: {notificationEvent.OrderId}");
-            _publisher.Publish(QueueNames.Notification, notificationEvent);
-        }
-        else
-        {
-            Console.WriteLine($"Inventory reservation failed for Order: {notificationEvent.OrderId}");
-        }
+
+        Console.WriteLine($"Inventory reserved for Order: {shippingEvent.OrderId}");
+        _publisher.Publish(
+            exchangeName: ExchangeNames.ShippingEvents,
+            routingKey: RoutingKeys.ShippingPrepared,
+            message: shippingEvent);
     }
 }

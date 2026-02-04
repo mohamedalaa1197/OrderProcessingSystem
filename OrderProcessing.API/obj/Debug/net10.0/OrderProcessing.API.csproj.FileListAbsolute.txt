@@ -47,3 +47,4 @@
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.API/obj/Debug/net10.0/OrderProcessing.API.pdb
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.API/obj/Debug/net10.0/OrderProcessing.API.genruntimeconfig.cache
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.API/obj/Debug/net10.0/ref/OrderProcessing.API.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.API/obj/Debug/net10.0/OrderProcessing.API.sourcelink.json

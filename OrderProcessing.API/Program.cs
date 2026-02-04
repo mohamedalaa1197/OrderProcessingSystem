@@ -16,7 +16,7 @@ builder.Services.AddSwaggerGen();
 var rabbitConfig = new RabbitMQConfiguration();
 builder.Services.AddSingleton(rabbitConfig);
 builder.Services.AddSingleton<RabbitMQConnectionFactory>();
-builder.Services.AddSingleton<RabbitMQPublisher>();
+builder.Services.AddSingleton<RabbitMqPublisher>();
 builder.Services.AddHostedService<PaymentProcessingWorker>();
 builder.Services.AddHostedService<InventoryReservationWorker>();
 builder.Services.AddHostedService<NotificationWorker>();

@@ -6,13 +6,15 @@ namespace OrderProcessing.PaymentWorker;
 
 public class PaymentProcessingWorker : RabbitMQConsumer
 {
-    private readonly RabbitMQPublisher _publisher;
-    protected override string QueueName => QueueNames.OrderCreated;
+    private readonly RabbitMqPublisher _publisher;
+    protected override string QueueName => QueueNames.PaymentProcessing;
+    protected override string ExchangeName => ExchangeNames.OrderEvents;
+    protected override string RoutingKey => RoutingKeys.OrderCreated;
     protected override string DeadLetterQueue => QueueNames.PaymentDLQ;
 
     public PaymentProcessingWorker(
         RabbitMQConnectionFactory connectionFactory,
-        RabbitMQPublisher publisher)
+        RabbitMqPublisher publisher)
         : base(connectionFactory)
     {
         _publisher = publisher;
@@ -42,12 +44,19 @@ public class PaymentProcessingWorker : RabbitMQConsumer
         if (success)
         {
             Console.WriteLine($"Payment successful for Order: {orderEvent.Order.OrderId}");
-            _publisher.Publish(QueueNames.InventoryReservation, paymentEvent);
+            _publisher.Publish(
+                exchangeName: ExchangeNames.PaymentEvents,
+                routingKey: RoutingKeys.PaymentSuccess,
+                message: paymentEvent);
         }
         else
         {
             Console.WriteLine($"Payment failed for Order: {orderEvent.Order.OrderId}");
-            // here we can also push to a failed payment orders queue, if needed to track 
+            _publisher.Publish(
+                exchangeName: ExchangeNames.PaymentEvents,
+                routingKey: RoutingKeys.PaymentFailed,
+                message: paymentEvent
+            );
         }
     }
 }

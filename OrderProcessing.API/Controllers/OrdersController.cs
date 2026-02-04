@@ -9,9 +9,9 @@ namespace OrderProcessing.API.Controllers;
 [Route("api/[controller]")]
 public class OrdersController : ControllerBase
 {
-    private readonly RabbitMQPublisher _publisher;
+    private readonly RabbitMqPublisher _publisher;
 
-    public OrdersController(RabbitMQPublisher publisher)
+    public OrdersController(RabbitMqPublisher publisher)
     {
         _publisher = publisher;
     }
@@ -32,9 +32,16 @@ public class OrdersController : ControllerBase
 
         var orderEvent = new OrderCreatedEvent { Order = order };
 
-        _publisher.Publish(QueueNames.OrderCreated, orderEvent);
+        _publisher.Publish(
+            exchangeName: ExchangeNames.OrderEvents,
+            routingKey: QueueNames.OrderCreated,
+            message: orderEvent);
 
-        return Ok(new { orderId = order.OrderId, message = "Order created successfully" });
+        return Ok(new
+        {
+            orderId = order.OrderId,
+            message = "Order created successfully"
+        });
     }
 }
 

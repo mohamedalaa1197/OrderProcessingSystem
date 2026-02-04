@@ -15,3 +15,4 @@
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/obj/Debug/net10.0/refint/OrderProcessing.NotificationWorker.dll
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/obj/Debug/net10.0/OrderProcessing.NotificationWorker.pdb
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/obj/Debug/net10.0/ref/OrderProcessing.NotificationWorker.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.NotificationWorker/obj/Debug/net10.0/OrderProcessing.NotificationWorker.sourcelink.json

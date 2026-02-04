@@ -15,3 +15,4 @@
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/obj/Debug/net10.0/refint/OrderProcessing.PaymentWorker.dll
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/obj/Debug/net10.0/OrderProcessing.PaymentWorker.pdb
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/obj/Debug/net10.0/ref/OrderProcessing.PaymentWorker.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.PaymentWorker/obj/Debug/net10.0/OrderProcessing.PaymentWorker.sourcelink.json

@@ -9,3 +9,4 @@
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Shared/obj/Debug/net10.0/refint/OrderProcessing.Shared.dll
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Shared/obj/Debug/net10.0/OrderProcessing.Shared.pdb
 /Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Shared/obj/Debug/net10.0/ref/OrderProcessing.Shared.dll
+/Users/mohamedalaa/Documents/Self Projects/OrderProcessingSystem/OrderProcessing.Shared/obj/Debug/net10.0/OrderProcessing.Shared.sourcelink.json
